@@ -379,23 +379,18 @@ img { max-width: 100%; display: block; }
   width: 100%;
   height: 100%;
   transition: var(--transition);
+  background-size: cover;
+  background-position: center;
 }
 
 .gallery-item:hover .placeholder {
   transform: scale(1.05);
 }
 
-.gallery-item:nth-child(1) .placeholder { background: linear-gradient(135deg, #1c2d3a, #1a3a4a); }
-.gallery-item:nth-child(2) .placeholder { background: linear-gradient(135deg, #1a3a4a, #2ec4b633); }
-.gallery-item:nth-child(3) .placeholder { background: linear-gradient(135deg, #2ec4b633, #1c2d3a); }
-.gallery-item:nth-child(4) .placeholder { background: linear-gradient(135deg, #0f1923, #1a3a4a); }
-.gallery-item:nth-child(5) .placeholder { background: linear-gradient(135deg, #1a3a4a, #0f1923); }
-.gallery-item:nth-child(6) .placeholder { background: linear-gradient(135deg, #1c2d3a, #2ec4b622); }
-
 .gallery-item .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(201, 169, 110, 0.15);
+  background: rgba(46, 196, 182, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
